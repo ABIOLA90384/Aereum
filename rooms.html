@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+ <div class="room-hero" style="width: 100%; height: 400px;position:relative;">
+    <nav style="box-shadow: none;background-color:transparent;padding-top: 40px;color: rgb(251, 248, 248);position: relative;">
+  <div class="logo">
+  <h1 style="margin-bottom: 0;"><span>AEREUM</span></br>GRAND HOTEL</h1>
+  </div>
+  <input type="checkbox" id="sidebar-active">
+  <label id="overlay" for="sidebar-active"></label>
+   <label for="sidebar-active" class="open-side-button">
+    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+   </label>
+   <div class="links-container">
+    <label for="sidebar-active" class="close-side-button">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+      </label>
+
+    <a href="index.html" style="color: aliceblue;">Home</a>
+    <a href="aboutus.html" style="color: aliceblue;">About</a>
+    <a href="rooms.html" style="color: aliceblue;">Our Rooms</a>
+    <a href="support.html"style="color: aliceblue;">Support </a>
+  </nav>
+ 
+    <div class="hcontent" style="position: relative;margin-top: auto;">
+    <h2 class="welcome" style="font-size: 30px;margin-top: 20PX;">ROOMS</h2>
+    <p class="place">Experience perfect luxury and satisfaction.</p>
+    </div>
+ </div> 
+
+ <div class="check">
+  <div class="checkin">
+    <h2 style="color: black;margin-left: 10px;">Check Availability</h2>
+    <form style="margin-left: 10px;margin-bottom: 5px;">
+        <label for="checkin">Check-in:</label>
+        <input type="date" id="checkin" name="checkin" required>
+        <label for="checkout">Check-out:</label>
+        <input type="date" id="checkout" name="checkout" required>
+        <label for="guests">Guests:</label>
+        <input type="number" id="guests" name="guests" min="1" max="10" required>
+        <button type="submit">Check Availability</button>
+    </form>
+    </div>
+  </div>
+  
+ <div class="container" style="margin-top: 150px;display: flex;flex-wrap: wrap;gap: 20px;width: 90%;">
+   <div style="border: 1px solid rgb(221, 216, 216);padding: 10px;width: 350px;height: auto;">
+      <img src="2beds1.jpeg" style="width: 100%;height: 250px;">
+    <h2 style="color: black;">Luxury Super Delux</h2>
+    <p style="color: rgb(83, 76, 76);">Outstanding hospitality,luxurious ,good health care,customer service</p>
+    <p style="color: rgb(83, 76, 76);">Starts from <span style="font-weight: bolder;color: black;">$250/Night</span></p>
+      <div>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Status</span><span style="visibility: hidden;"> ------</span>
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">Available</span></br>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Payment <span style="visibility: hidden;"> --</span></span> 
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">30% Advanced</span></br>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Guest<span style="visibility: hidden;"> ------</span></span> 
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">4 max</span></br>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Beds <span style="visibility: hidden;"> -------</span></span> 
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">2</span><br>
+        <button type="button" id="book1" class="room-button book1" >BOOK NOW</button>
+      </div>
+   </div>
+   <div style="border: 1px solid rgb(221, 216, 216);padding: 10px;width: 350px;height: auto;">
+      <img src="2bed.jpeg" style="width: 100%;height: 250px;">
+    <h2 style="color: black;">Luxury Super Delux</h2>
+    <p style="color: rgb(83, 76, 76);">Outstanding hospitality,</br>good health care,customer service</p>
+    <p style="color: rgb(83, 76, 76);">Starts from <span style="font-weight: bolder;color: black;">$250/Night</span></p>
+     <div>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Status</span><span style="visibility: hidden;"> ------</span>
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">Available</span></br>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Payment <span style="visibility: hidden;"> --</span></span> 
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">30% Advanced</span></br>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Guest<span style="visibility: hidden;"> ------</span></span> 
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">4 max</span></br>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Beds <span style="visibility: hidden;"> -------</span></span> 
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">2</span><br>
+        <button type="button" id="book2" class="room-button" >BOOK NOW</button>
+      </div>
+   </div>
+   <div style="border: 1px solid rgb(221, 216, 216);padding: 10px;width: 350px;height: auto;">
+      <img src="3beds.jpeg" style="width: 100%;height: 250px;">
+    <h2 style="color: black;">Luxury Super Delux</h2>
+    <p style="color: rgb(83, 76, 76);">Outstanding hospitality,luxurious comfortability,</br>good health care,customer service</p>
+    <p style="color: rgb(83, 76, 76);">Starts from <span style="font-weight: bolder;color: black;">$250/Night</span></p>
+      <div>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Status</span><span style="visibility: hidden;"> ------</span>
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">Available</span></br>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Payment <span style="visibility: hidden;"> --</span></span> 
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">30% Advanced</span></br>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Guest<span style="visibility: hidden;"> ------</span></span> 
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">4 max</span></br>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Beds <span style="visibility: hidden;"> -------</span></span> 
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">3</span><br>
+        <button type="button" id="book3" class="room-button" >BOOK NOW</button>
+      </div>
+   </div>
+   <div style="border: 1px solid rgb(221, 216, 216);padding: 10px;width: 350px;height: auto;">
+      <img src="1bed.jpeg" style="width: 100%;height: 250px;">
+    <h2 style="color: black;">Luxury Super Delux</h2>
+    <p style="color: rgb(83, 76, 76);">Outstanding hospitality,luxurious comfortability,</br>good health care,customer service</p>
+    <p style="color: rgb(83, 76, 76);">Starts from <span style="font-weight: bolder;color: black;">$250/Night</span></p>
+     <div>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Status</span><span style="visibility: hidden;"> ------</span>
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">Available</span></br>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Payment <span style="visibility: hidden;"> --</span></span> 
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">30% Advanced</span></br>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Guest<span style="visibility: hidden;"> ------</span></span> 
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">2 max</span></br>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Beds <span style="visibility: hidden;"> -------</span></span> 
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">1</span><br>
+        <button type="button" id="book4" class="room-button" >BOOK NOW</button>
+      </div>
+   </div>
+   <div style="border: 1px solid rgb(221, 216, 216);padding: 10px;width: 350px;height: auto;">
+      <img src="2beds.jpeg" style="width: 100%;height: 250px;">
+    <h2 style="color: black;">Luxury Super Delux</h2>
+    <p style="color: rgb(83, 76, 76);">Outstanding hospitality,luxurious comfortability,</br>good health care,customer service</p>
+    <p style="color: rgb(83, 76, 76);">Starts from <span style="font-weight: bolder;color: black;">$250/Night</span></p>
+      <div>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Status</span><span style="visibility: hidden;"> ------</span>
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">Available</span></br>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Payment <span style="visibility: hidden;"> --</span></span> 
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">30% Advanced</span></br>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Guest<span style="visibility: hidden;"> ------</span></span> 
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">4 max</span></br>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Beds <span style="visibility: hidden;"> -------</span></span> 
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">2</span><br>
+        <button type="button" id="book5" class="room-button" >BOOK NOW</button>
+      </div>
+   </div>
+   <div style="border: 1px solid rgb(221, 216, 216);padding: 10px;width: 350px;height: auto;">
+      <img src="3beds2.jpeg" style="width: 100%;height: 250px;">
+    <h2 style="color: black;">Luxury Super Delux</h2>
+    <p style="color: rgb(83, 76, 76);">Outstanding hospitality,luxurious comfortability,</br>good health care,customer service</p>
+    <p style="color: rgb(83, 76, 76);">Starts from <span style="font-weight: bolder;color: black;">$250/Night</span></p>
+      <div>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Status</span><span style="visibility: hidden;"> ------</span>
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">Available</span></br>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Payment <span style="visibility: hidden;"> --</span></span> 
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">30% Advanced</span></br>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Guest<span style="visibility: hidden;"> ------</span></span> 
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">4 max</span></br>
+        <span style="color: rgb(15, 15, 15);font-size: larger;">Beds <span style="visibility: hidden;"> -------</span></span> 
+        <span  style="color: rgb(83, 76, 76);margin-left: 15px;">2</span><br>
+        <button type="button" id="book6" class="room-button" >BOOK NOW</button>
+      </div>
+   </div>
+   
+    
+ </div>
+ 
+ <footer style="width:100%;background-color: rgb(34, 33, 33);margin-top: 0px;display: flex;gap:20px">
+    <div style="display: flex;flex-wrap: wrap;gap:  80px;">
+    <div>
+      <h2 style="padding-top: 20px;">Sections</h2>
+      <p style="color: rgb(137, 130, 119);">Home</p>
+      <p style="color: rgb(137, 130, 119);">About</p>
+      <p style="color: rgb(137, 130, 119);">Rooms</p>
+      <p style="color: rgb(137, 130, 119);">Book</p>
+    </div>
+    <div>
+      <h2 style="padding-top: 20px;">Sections</h2>
+      <p style="color: rgb(137, 130, 119);">Home</p>
+      <p style="color: rgb(137, 130, 119);">About</p>
+      <p style="color: rgb(137, 130, 119);">Rooms</p>
+      <p style="color: rgb(137, 130, 119);">Book</p>
+    </div>
+    <div>
+    <div class="newsletter" style="margin-top: 50px;margin-left: 90px;">
+     <p class="small-text">Sign up to get our Newsletter</p>
+     <form class="newsletter-form">
+     <input type="email" placeholder="Your Email.." required>
+     <button type="submit">✈️</button>
+  </form>
+    <div class="icons" style="display: flex;gap:10px;margin-top: 10px;">
+     <div style="background-color: royalblue;width:15px;text-align:center;padding-top: 4px;"><span class="facebook" style="color: aliceblue;font-weight: bold;">f</span></div>
+     <span class="user">👤</span>
+    </div>
+   </div>
+  </div>
+    
+ </footer>
+
+    <script src="index.js" charset="utf-8"></script>
+</body>
+</html>
